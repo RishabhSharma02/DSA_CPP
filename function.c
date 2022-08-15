@@ -1,8 +1,13 @@
-#include<stdio.h>
-void myFunction(){
-    printf("hello world");
+#include <stdio.h>
+void printstar(int n){
+   for(int i = 0; i < n;i++){
+    printf("*");
+   }
 }
-int main(){
-   myFunction();
-   return 0;
+int main()
+{
+    int a = 6;
+    int b = 8;
+    printstar(a);
+    return 0;
 }
