@@ -1,1 +1,1 @@
-r(a);
+printf("Enter the angles :");
