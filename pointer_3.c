@@ -2,7 +2,6 @@
 int main(){
     int arr[5];
     int *ptr=arr;
-    int sum=0;
     int tgt;
     for(int i=0; i<5; i++){
         printf("Enter your value: ");
