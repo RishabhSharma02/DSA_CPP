@@ -1,1 +1,1 @@
-printf("Enter the angles :");
+    for(int i=0;str[i]!='\0';i++){
