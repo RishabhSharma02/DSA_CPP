@@ -11,6 +11,6 @@ int main(){
         arr[j+1]=key; 
     }
     for(int i=0; i<6; i++){
-        printf(" %d",arr[i]);
+        printf("%d ",arr[i]);
     }
 }
