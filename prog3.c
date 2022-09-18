@@ -7,4 +7,4 @@ int main(){
         printf("%dx%d=%d\n",i,num,i*num);
     }
     
-}
+}fraud///
