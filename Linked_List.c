@@ -55,7 +55,17 @@ void customPrint(int key){
    printf("%d ",ptr->val);
 
 }
-
+void printmiddle(){
+   struct node *ptr;
+   struct node *ptr1;
+   ptr=Head;
+   ptr1=Head;
+   while(ptr1!= NULL){
+      ptr1=ptr1->next->next;
+      ptr=ptr->next;
+   }
+   printf("%d",ptr->val);
+}
 int main(){ 
    insertFirst(1);
    insertFirst(2);
@@ -63,5 +73,7 @@ int main(){
    insertFirst(4);
    insertFirst(5);
    insertFirst(6);
-   customPrint(3);
+   insertFirst(7);
+   printmiddle();
+
 }
