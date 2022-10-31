@@ -1,1 +1,1 @@
-#include<stdlib.h>
+    scanf("%d",n1);

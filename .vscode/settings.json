@@ -2,6 +2,12 @@
     "C_Cpp.errorSquiggles": "Disabled",
     "files.associations": {
         "iostream": "cpp",
-        "P1.C": "cpp"
+        "P1.C": "cpp",
+        "queue_LL.C": "cpp",
+        "istream": "c",
+        "iterator": "c",
+        "ostream": "c",
+        "xlocnum": "c",
+        "xstring": "c"
     }
 }
